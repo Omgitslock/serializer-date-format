@@ -1,0 +1,27 @@
+{
+    "name": "omgitslock/serializer-date-format",
+    "description": "Add DateFormat annotation for symfony/serializer",
+    "require" : {
+        "symfony/serializer": "^5.0",
+        "symfony/property-access": "^5.0",
+        "symfony/property-info": "^5.0",
+        "doctrine/annotations": "1.6.1",
+        "phpdocumentor/reflection-docblock": "^4.3"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master",
+        "phpunit/phpunit": "^8.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\" : "src/",
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "danil",
+            "email": "omgitslock@gmail.com"
+        }
+    ]
+}
